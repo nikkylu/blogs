@@ -1,0 +1,35 @@
+.Layout{
+    /* background-color: lightblue; */
+    font-size: large;
+    font-weight: 800;
+    color: black;
+    margin-top: 3%;
+    margin-left: 3%;
+    /* font-weight: 800; */
+}
+
+.Layout-bar{
+    text-decoration: none;
+    color: azure;
+    display:grid;
+
+}
+.Layout-bar:visited{
+    color: azure;
+}
+
+.Layout-sidebar {
+    font-size:small;
+    text-decoration: none;
+    color: azure;
+    margin-left: 2.3%;
+}
+
+.Layout-sidebar:visited {
+    font-size: small;
+    text-decoration: none;
+    color: azure;
+}
+/* .Layout-bar:active {
+    color: azure;
+} */

@@ -1,0 +1,47 @@
+.Bulb {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding-top: 2vmin;
+    max-height: 80vmin;
+    max-width: 100vmin;
+    /* max-height: 90%; */
+    margin-right: 3%;
+    margin-left: auto;
+    /* height: 90%; */
+    /* margin-left: auto; */
+}
+
+.Bulb:hover {
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+.Bulb:active {
+    opacity: 70%;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+.fadeIn {
+    animation: fade-in 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 800px) {
+    .Bulb {
+        margin-left: 3vmin;
+        flex-direction: column;
+        max-height: 90%;
+        width: auto;
+    }
+}
