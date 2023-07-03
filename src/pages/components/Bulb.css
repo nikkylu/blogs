@@ -8,6 +8,7 @@
     /* max-height: 90%; */
     margin-right: 3%;
     margin-left: auto;
+    pointer-events: None;
     /* height: 90%; */
     /* margin-left: auto; */
 }

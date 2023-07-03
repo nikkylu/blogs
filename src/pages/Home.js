@@ -1,5 +1,5 @@
 import './Home.css'
-import pic from "./components/bio/pic.jpg"
+import pic from "./components/bio/pic.jpeg"
 const Home = () => {
   return (
   <div className="Home">
