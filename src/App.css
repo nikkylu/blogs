@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  background-color: rgb(184, 184, 184);
+  /* background-color: rgb(184, 184, 184); */
+  background-color: rgb(221, 221, 221);
+  background-image: url(./sources/texture.png);
   max-height: 100%;
 }
 

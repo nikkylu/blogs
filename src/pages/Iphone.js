@@ -3,7 +3,8 @@ const Photo = () => {
   return(
     <div>
         {/* <h2>Photo Projects</h2> */}
-        <Bulb></Bulb>
+        {/* <Bulb></Bulb> */}
+        still sorting
     </div>
   )
 };

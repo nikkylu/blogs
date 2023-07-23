@@ -8,3 +8,29 @@
     text-indent: 2%;
     line-height: 1.5;
 }
+
+.NewYork-Photo {
+    display: flex;
+    margin-left: auto;
+    max-width: 80%;
+    /* margin-right: 3%; */
+    margin-top: 3%;
+    margin-bottom: 3%;
+    pointer-events: none;
+}
+
+.NewYork-pic {
+    max-width: 30%;
+    /* margin-right:3%; */
+    margin-left: 3%;
+}
+
+@media screen and (max-width: 600px) {
+    .NewYork {
+        max-width: 90%;
+    }
+
+    .NewYork-pic {
+        max-width: 40%;
+    }
+}

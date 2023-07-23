@@ -14,7 +14,7 @@ const Layout = () => {
             <div>Photo</div>
             <Link to="/photo" className="Layout-sidebar">We Stare into the World and See Ourselves</Link>
             <Link to="/NewYork" className="Layout-sidebar">New York</Link>
-            <Link to="/photo" className="Layout-sidebar">Shot on iPhone</Link>
+            <Link to="/Iphone" className="Layout-sidebar">Shot on iPhone</Link>
           </div>
           <div className="Layout-bar">
             <div>Blogs</div>
