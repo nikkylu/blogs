@@ -2,6 +2,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
+import Und from "./pages/Und";
 import NewYork from "./pages/NewYork";
 import Photo from "./pages/Photo";
 import Iphone from "./pages/Iphone";
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="photo" element={<Photo />} />
+          <Route path="und" element={<Und />} />
           <Route path="newyork" element={<NewYork />} />
           <Route path="iphone" element={<Iphone />} />
           <Route path="blogs" element={<Blogs />} />

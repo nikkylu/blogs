@@ -13,6 +13,7 @@ const Layout = () => {
           <div className="Layout-bar">
             <div>Photo</div>
             <Link to="/photo" className="Layout-sidebar">We Stare into the World and See Ourselves</Link>
+            <Link to="/Und" className="Layout-sidebar">und</Link>
             <Link to="/NewYork" className="Layout-sidebar">New York</Link>
             <Link to="/Iphone" className="Layout-sidebar">In Search of HOME</Link>
           </div>
