@@ -1,5 +1,6 @@
 import './Home.css'
-import pic from "./components/bio/pic.jpeg"
+// import pic from "./components/bio/pic.jpeg"
+import pic3 from "./components/bio/pic3.jpg"
 const Home = () => {
   return (
   <div className="Home">
@@ -9,14 +10,12 @@ const Home = () => {
     <div>Born 2003, Hangzhou, China.</div>
     <br></br>
     <div>Hey this is Nikky. I am currently pursuing Computer Science and Philosophy with a Math minor.</div> 
-    <div>I am an art photographer, world solo-traveler, barista, podcaster, spotify playlist maker, "food-critic," swimmer, and cyclist -- yet to become an aquabiker! </div>
-    <div>I listen to jazz and am interested in playing jazz piano and guitar.</div>
-    <div>J'aime les baguettes... und ich liebe techno.</div>
+    <div>In my free time, I take photos, explore contemporary art, and enjoy cycling. I travel during longer holidays.</div>
     <div>This Blog records my journey as an observer and an active learner.</div>
     </div>
     <br></br>
-    <img src={pic} className='Home-img'></img>
-    <div className='fs-small'>the dentist cr. Jo</div>
+    <img src={pic3} className='Home-img'></img>
+    {/* <div className='fs-small'>the dentist cr. Jo</div> */}
   </div>
   )
 };

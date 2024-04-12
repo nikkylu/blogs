@@ -12,14 +12,19 @@ const Layout = () => {
           </div>
           <div className="Layout-bar">
             <div>Photo</div>
-            <Link to="/photo" className="Layout-sidebar">We Stare into the World and See Ourselves</Link>
-            <Link to="/Und" className="Layout-sidebar">und</Link>
-            <Link to="/NewYork" className="Layout-sidebar">New York</Link>
-            <Link to="/Iphone" className="Layout-sidebar">In Search of HOME</Link>
+            <Link to="/Water" className="Layout-sidebar">Water (2024)</Link>
+            <Link to="/Iphone" className="Layout-sidebar">In Search of HOME (2023)</Link>
+            <Link to="/Photo" className="Layout-sidebar">We Stare into the World and See Ourselves (2022)</Link>
+            {/* <Link to="/Und" className="Layout-sidebar">und</Link> */}
+            {/* <Link to="/NewYork" className="Layout-sidebar">New York</Link> */}
+            
+            
           </div>
           <div className="Layout-bar">
-            <div>Blogs</div>
-            <Link to="/blogs" className="Layout-sidebar">Random Thoughts</Link>
+            <div>Travels</div>
+            {/* <Link to="/blogs" className="Layout-sidebar">Random Thoughts</Link> */}
+            <Link to="/Travel" className="Layout-sidebar">Travels</Link>
+            {/* <Link to="/P5" className="Layout-sidebar">Digital Art</Link> */}
           </div>
           <div>
             <Link to="/contact" className="Layout-bar">Contact</Link>

@@ -1,0 +1,27 @@
+import Bulb from "./components/Bulb"
+// import './NewYork.css'
+import './Photo.css'
+import a from "./components/water/a.jpeg"
+import b from "./components/water/b.jpeg"
+import c from "./components/water/c.jpeg"
+import d from "./components/water/d.jpeg"
+
+const Photo = () => {
+  return(
+    <div className='NewYork'>
+        <div>I was raised by the lake, and water became the essence of my existence—entwining with education, family, and personal joys. Swimming, a lifelong pursuit, instilled in me a deep love for the weightlessness of water's embrace. Pedaling around the lake on summer nights, alone and free, became my cherished ritual. The proximity to this vast water body has been a defining anchor in my life since childhood. </div>
+        <div> </div>
+          <div>I almost never photo humans, but I would like to be with water together this time.</div>
+        <div className="NewYork-Photo">
+          <img className="NewYork-pic" src={a}></img>
+          <img className="NewYork-pic" src={b}></img>
+        </div>
+        <div className="NewYork-Photo">
+          <img className="NewYork-pic" src={c}></img>
+          <img className="NewYork-pic" src={d}></img>
+      </div>
+    </div>
+  )
+};
+
+export default Photo;
