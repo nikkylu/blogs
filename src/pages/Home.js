@@ -1,6 +1,8 @@
 import './Home.css'
 // import pic from "./components/bio/pic.jpeg"
-import pic3 from "./components/bio/pic3.jpg"
+import pic4 from "./components/bio/pic4.JPG"
+import pic5 from "./components/bio/pic5.jpeg"
+
 const Home = () => {
   return (
   <div className="Home">
@@ -14,7 +16,9 @@ const Home = () => {
     <div>This Blog records my journey as an observer and an active learner.</div>
     </div>
     <br></br>
-    <img src={pic3} className='Home-img'></img>
+    <img src={pic4} className='Home-img'></img>
+    <img src={pic5} className='Home-img'></img>
+    <div className='Home-cap'>cr. Fuan @ Eastbourne, England, UK</div>
     {/* <div className='fs-small'>the dentist cr. Jo</div> */}
   </div>
   )

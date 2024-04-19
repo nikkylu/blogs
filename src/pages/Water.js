@@ -5,8 +5,9 @@ import a from "./components/water/a.jpeg"
 import b from "./components/water/b.jpeg"
 import c from "./components/water/c.jpeg"
 import d from "./components/water/d.jpeg"
+import e from "./components/water/e.jpeg"
 
-const Photo = () => {
+const Water = () => {
   return(
     <div className='NewYork'>
         <div>
@@ -21,8 +22,12 @@ const Photo = () => {
           <img className="NewYork-pic" src={c}></img>
           <img className="NewYork-pic" src={d}></img>
       </div>
+      <div className="NewYork-Photo">
+          <img className="NewYork-pic" src={e}></img>
+          {/* <img className="NewYork-pic" src={d}></img> */}
+      </div>
     </div>
   )
 };
 
-export default Photo;
+export default Water;
