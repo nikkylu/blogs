@@ -9,6 +9,7 @@ import Iphone from "./pages/Iphone";
 import Water from "./pages/Water";
 import Blogs from "./pages/Blogs";
 import Travel from "./pages/Travel";
+import Corpse from "./pages/Corpse";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 
@@ -25,10 +26,11 @@ export default function App() {
           <Route path="und" element={<Und />} />
           <Route path="water" element={<Water />} />
           <Route path="newyork" element={<NewYork />} />
+          <Route path="travel" element={<Travel />} />
           <Route path="iphone" element={<Iphone />} />
+          <Route path="corpse" element={<Corpse />} />
           <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="travel" element={<Travel />} />
           {/* <Route path="P5" element={<P5 />} /> */}
           <Route path="*" element={<NoPage />} />
         </Route>

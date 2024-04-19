@@ -12,6 +12,7 @@ const Layout = () => {
           </div>
           <div className="Layout-bar">
             <div>Photo</div>
+            <Link to="/Corpse" className="Layout-sidebar">Who's found the corpse by the water (2024)</Link>
             <Link to="/Water" className="Layout-sidebar">Water (2024)</Link>
             <Link to="/Iphone" className="Layout-sidebar">In Search of HOME (2023)</Link>
             <Link to="/Photo" className="Layout-sidebar">We Stare into the World and See Ourselves (2022)</Link>
