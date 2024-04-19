@@ -9,7 +9,8 @@ import d from "./components/water/d.jpeg"
 const Photo = () => {
   return(
     <div className='NewYork'>
-        <div>I was raised by the lake, and water became the essence of my existence—entwining with education, family, and personal joys. Swimming, a lifelong pursuit, instilled in me a deep love for the weightlessness of water's embrace. Pedaling around the lake on summer nights, alone and free, became my cherished ritual. The proximity to this vast water body has been a defining anchor in my life since childhood. </div>
+        <div>
+            The proximity to a vast water body has been a defining anchor in my life since childhood. </div>
         <div> </div>
           <div>I almost never photo humans, but I would like to be with water together this time.</div>
         <div className="NewYork-Photo">
