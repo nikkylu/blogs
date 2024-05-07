@@ -2,6 +2,7 @@ import './Home.css'
 // import pic from "./components/bio/pic.jpeg"
 import pic4 from "./components/bio/pic4.JPG"
 import pic5 from "./components/bio/pic5.jpeg"
+import pic6 from "./components/bio/pic6.jpeg"
 
 const Home = () => {
   return (
@@ -19,6 +20,8 @@ const Home = () => {
     <img src={pic4} className='Home-img'></img>
     <img src={pic5} className='Home-img'></img>
     <div className='Home-cap'>cr. Fuan @ Eastbourne, England, UK</div>
+    <img src={pic6} className='Home-img'></img>
+    <div className='Home-cap'>cr. Kevin @ New Jersey, US</div>
     {/* <div className='fs-small'>the dentist cr. Jo</div> */}
   </div>
   )

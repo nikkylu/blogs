@@ -7,6 +7,7 @@ import NewYork from "./pages/NewYork";
 import Photo from "./pages/Photo";
 import Iphone from "./pages/Iphone";
 import Water from "./pages/Water";
+import Film from "./pages/Film";
 import Blogs from "./pages/Blogs";
 import Travel from "./pages/Travel";
 import Corpse from "./pages/Corpse";
@@ -22,6 +23,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="film" element={<Film />} />
           <Route path="Photo" element={<Photo />} />
           <Route path="und" element={<Und />} />
           <Route path="water" element={<Water />} />
